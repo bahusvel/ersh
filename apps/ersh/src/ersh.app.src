@@ -1,0 +1,16 @@
+{application, ersh,
+ [{description, "An ersh shell"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { ersh, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
